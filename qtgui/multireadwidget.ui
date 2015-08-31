@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MultiReadWidget</class>
+ <widget class="QWidget" name="MultiReadWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>830</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>9</y>
+     <width>821</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>5</number>
+   </property>
+   <widget class="ReadFileWidget" name="tab0">
+    <attribute name="title">
+     <string>Port #0</string>
+    </attribute>
+   </widget>
+   <widget class="ReadFileWidget" name="tab1">
+    <attribute name="title">
+     <string>Port #1</string>
+    </attribute>
+   </widget>
+   <widget class="ReadFileWidget" name="tab2">
+    <attribute name="title">
+     <string>Port #2</string>
+    </attribute>
+   </widget>
+   <widget class="ReadFileWidget" name="tab3">
+    <attribute name="title">
+     <string>Port #3</string>
+    </attribute>
+   </widget>
+   <widget class="ReadFileWidget" name="tab4">
+    <attribute name="title">
+     <string>Port #4</string>
+    </attribute>
+   </widget>
+   <widget class="ReadFileWidget" name="tab">
+    <attribute name="title">
+     <string>User-Defined Port</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ReadFileWidget</class>
+   <extends>QWidget</extends>
+   <header>qtgui/readfilewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

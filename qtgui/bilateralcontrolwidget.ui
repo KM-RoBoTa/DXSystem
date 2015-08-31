@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BilateralControlWidget</class>
+ <widget class="QWidget" name="BilateralControlWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Master/Slave Bilateral Control</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>541</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="numSlaveLabel">
+        <property name="text">
+         <string># of Slave Systems</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="numSlaveBox">
+        <property name="maximum">
+         <number>9</number>
+        </property>
+        <property name="value">
+         <number>1</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QTableWidget" name="portnumTable">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>550</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="rowCount">
+         <number>1</number>
+        </property>
+        <property name="columnCount">
+         <number>10</number>
+        </property>
+        <row>
+         <property name="text">
+          <string>Port</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Master</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Slave1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Slave2</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Slave3</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Slave4</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Slave5</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Slave6</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Slave7</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Slave8</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Slave9</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="0" column="1">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item row="0" column="2">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="0" column="3">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item row="0" column="4">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item row="0" column="5">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </item>
+        <item row="0" column="6">
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item row="0" column="7">
+         <property name="text">
+          <string>7</string>
+         </property>
+        </item>
+        <item row="0" column="8">
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item row="0" column="9">
+         <property name="text">
+          <string>9</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>10</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="startButton">
+        <property name="text">
+         <string>Start</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>File Prefix: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="filePrefixEdit">
+        <property name="text">
+         <string>learningdata</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

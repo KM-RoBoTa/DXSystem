@@ -1,0 +1,5 @@
+<map id="DXMotorSystem" name="DXMotorSystem">
+<area shape="rect" id="node1" href="$group__pssetter.html" title="Setters and Getters\l for Position and Speed" alt="" coords="178,5,337,46"/>
+<area shape="rect" id="node3" href="$group__forcesetters.html" title="Setters and Getters\l Compliance/PID Control" alt="" coords="173,70,341,111"/>
+<area shape="rect" id="node4" href="$group__motor_limits.html" title="Motor Motion Limit\l Settings" alt="" coords="192,135,323,177"/>
+</map>

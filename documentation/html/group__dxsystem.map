@@ -1,0 +1,7 @@
+<map id="DXSystem" name="DXSystem">
+<area shape="rect" id="node1" href="$group__protected.html" title="Protected" alt="" coords="202,5,281,32"/>
+<area shape="rect" id="node2" href="$group__manual.html" title="Manual Adjustments" alt="" coords="171,56,312,83"/>
+<area shape="rect" id="node3" href="$group__config_settings.html" title="Motor Configuration\l Settings" alt="" coords="173,107,309,149"/>
+<area shape="rect" id="node5" href="$group__ref_info.html" title="Motor Referencing Information" alt="" coords="142,173,341,200"/>
+<area shape="rect" id="node6" href="$group__status_getter.html" title="Motor Status Getters" alt="" coords="169,224,313,251"/>
+</map>
