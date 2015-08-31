@@ -5,7 +5,7 @@ which is covered through 3-clause BSD license.
 --
 
 DXSystem Library - A C++ library for rapid prototyping with Dynamixel AX, RX and MX motors.
-Copyright (C) 2015  Gary Lee
+Copyright (C) 2015  KM-RoBoTa
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
