@@ -40,8 +40,7 @@ void calcNewPosFromFile(DXMotorSystem& d, int timestep, const vector<int>& prevP
  */
 void dxlSetupEEPROM(DXMotorSystem& d)
 {
-    int numMotors = d.getNumMotors();
-    d.setAllPositionLimits(vector<int>(numMotors,0),vector<int>(numMotors,1023));
+
 }
 void dxlSetupEEPROM(DXSingleMotor& d)
 {
